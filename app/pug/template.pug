@@ -1,0 +1,20 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        title Algorate
+        link(rel="stylesheet", href="css/template.css")
+        block link
+    body
+        div.main-area
+            div.block-header
+                div.logo
+                    p Algorate
+                nav
+                    div.main-button
+                        a(href="/") Главная
+                    div.rate-button
+                        a(href="rate.html") Рейтинг
+            div.block-body
+                div.content
+                    block content
