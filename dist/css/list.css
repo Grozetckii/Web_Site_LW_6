@@ -17,3 +17,10 @@ p {
 li {
   margin: 0 0 0 20px;
 }
+@media (max-width: 670px) {
+  .list-img {
+    width: 90%;
+    height: 90%;
+    margin: 10px 0 0 15px;
+  }
+}
